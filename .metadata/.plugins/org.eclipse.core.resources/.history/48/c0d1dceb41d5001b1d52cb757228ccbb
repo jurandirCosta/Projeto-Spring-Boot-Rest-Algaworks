@@ -1,0 +1,21 @@
+package com.algaworks.algalog;
+
+import javax.activation.CommandObject;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.algaworks.algalog.domain.model.Cliente;
+
+@SpringBootApplication
+public class AlgalogApiApplication implements CommandObject {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AlgalogApiApplication.class, args);
+	}
+
+	public void run(String ...strings args) throws Exception {
+		Cliente c1 = new Cliente(1L, "Jurandir", "18-991271850", "jura@teste.com");
+		
+	}
+}

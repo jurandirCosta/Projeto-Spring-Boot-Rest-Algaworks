@@ -1,0 +1,26 @@
+package com.algaworks.algalog.domain.model;
+
+import java.io.Serializable;
+
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@EqualsAndHashCode
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+public class Cliente implements Serializable{
+	
+	private static final long serialVersionUID = 1L;
+	private Long Id;
+	private String Nome;
+	private String Telefone;
+	private String Email;
+	
+}

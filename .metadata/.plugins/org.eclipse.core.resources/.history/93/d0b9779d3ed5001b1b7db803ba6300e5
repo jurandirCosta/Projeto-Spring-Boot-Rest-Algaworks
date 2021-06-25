@@ -1,0 +1,10 @@
+package com.algaworks.algalog.domain.model;
+
+public class Cliente {
+
+	private Long Id;
+	private String Nome;
+	private String Telefone;
+	private String Email;
+	
+}
