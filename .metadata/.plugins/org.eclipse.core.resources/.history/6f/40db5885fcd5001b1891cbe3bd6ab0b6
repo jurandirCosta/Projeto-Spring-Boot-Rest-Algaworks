@@ -1,0 +1,5 @@
+package com.algaworks.algalog.api.repository;
+
+public class EntregaRepository {
+
+}

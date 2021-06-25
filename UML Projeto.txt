@@ -1,0 +1,26 @@
+
+StatusEntrega
+PENDENTE
+FINALIZADA
+CANCELADA
+
+Entrega
+taxa: BigDecimal
+dataPedido: DateTime
+dataFinalização: DateTime
+
+Destinatario
+ome: Strng
+logradouro: String
+numero: String
+complemento: String
+bairro: String
+
+Cliente
+nome: String
+email: String
+telefone: String
+
+Ocorrencia
+descricao: String
+dataRegistro: DateTime

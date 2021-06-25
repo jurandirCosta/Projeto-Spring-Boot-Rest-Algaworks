@@ -1,0 +1,30 @@
+package com.algaworks.algalog.domain.model;
+
+import java.io.Serializable;
+import java.math.BigDecimal;
+import java.sql.Timestamp;
+
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@EqualsAndHashCode
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+public class Entrega implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+	
+	private Long id;
+	private Cliente cliente;
+	private Destinatario destinario;
+	private BigDecimal taxa;
+	private Timestamp dataPedido;
+	private Timestamp dataFnalizacao;
+}
