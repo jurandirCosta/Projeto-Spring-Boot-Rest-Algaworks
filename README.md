@@ -1,6 +1,4 @@
-# Projeto-Spring-Boot-Rest-Algaworks
-Curso de Spring Rest da Algaworks ministrado pelo Thiago Faria. 2º Curso básico de Spring Rest
-
+Algalog
 Projeto feito durante o Mergulho Spring Rest da AlgaWorks - Projeto de logística
 
 Tecnologias
